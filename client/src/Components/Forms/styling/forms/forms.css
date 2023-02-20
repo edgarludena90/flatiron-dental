@@ -1,0 +1,13 @@
+.main-forms {
+  margin: 2rem 1rem;
+  display: grid;
+}
+.main-forms * {
+  justify-self: center;
+}
+.main-forms button {
+  border-radius: 9px;
+  width: 30%;
+  box-shadow: 8px 8px 16px #cccccc, -8px -8px 16px #ffffff;
+  margin: 8px 5px;
+}

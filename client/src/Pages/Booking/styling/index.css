@@ -1,0 +1,52 @@
+.booking {
+  height: 100vh;
+  overflow: hidden;
+}
+.booking div {
+  height: 45vh;
+  display: grid;
+}
+.booking div h3 {
+  color: var(--blue-shade);
+}
+.booking div form {
+  justify-self: center;
+  display: flex;
+  margin: 0 4vh;
+  flex-direction: column;
+  width: 75%;
+}
+.booking div form select {
+  padding: 12px 7px;
+  border: none;
+  background: #f5f5f5;
+  box-shadow: 8px 8px 16px #cccccc, -8px -8px 16px #ffffff;
+  margin: 12px;
+  border-radius: 16px;
+}
+.booking div form select:focus {
+  background-color: #ffffff;
+}
+.booking div form button {
+  align-self: center;
+  width: 75%;
+}
+.booking div form textarea {
+  height: 70px;
+  border: none;
+  box-shadow: 8px 8px 16px #cccccc, -8px -8px 16px #ffffff;
+  margin: 0 0 17px 0;
+  border-radius: 16px;
+}
+.booking div form * {
+  outline: none;
+  background: #f5f5f5;
+}
+.booking div form *:focus {
+  background-color: #ffffff;
+}
+.booking img {
+  height: 15vh;
+  width: 100vw;
+  object-fit: cover;
+}

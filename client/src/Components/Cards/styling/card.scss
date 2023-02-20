@@ -1,0 +1,65 @@
+// css variables have been declared in the App.css file
+.description-w-img{
+    display: inline-block;
+    border-radius: 16px;
+    background-color: white;
+    color: var(--blue-shade);
+    margin: 12px;
+    overflow: hidden;
+    height: 27rem;
+    .img-div{
+        overflow: hidden;
+        width: 20rem;
+        height: 20rem;
+        img{
+            transition: all .7s ease;
+            width: 100%;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+    .description-div{
+        padding: 2rem;
+        height: 100%;
+        width: 20rem;
+        border-radius: 16px;
+        background: #f2f2f2;
+        position: relative;
+        top: -2rem;
+        transition: all .7s ease;
+        box-shadow: none;
+        strong{
+            font-size: 18px;
+        }
+    }
+    &.plain-card:hover{
+        .description-div{
+            background-color: white;
+            box-shadow:  8px 8px 16px #cccccc,
+                    -8px -8px 16px #ffffff;
+        }
+    }
+    &.card-w-button{
+        .description-div{
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            transform: translateY(0);
+            transition: all .2s ease;
+            button{
+                border-radius: 12px;
+                display: block;
+                transition: all .2s ease;
+                transform: translateY(3rem);
+            }
+            &:hover{
+                transform: translateY(-3rem);
+                height: 150%;
+                button{
+                transform: translateY(1rem);
+                }
+            }
+        }
+    }
+}

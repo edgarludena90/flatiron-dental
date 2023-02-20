@@ -1,0 +1,31 @@
+/* global styling & variables */
+.App {
+  text-align: center;
+  z-index: 0;
+  scroll-behavior: smooth;
+  background-color: rgb(245, 251, 255);
+  --blue-shade: rgb(73, 172, 197);
+  --blue-grey-shade: rgba(240, 246, 255, 0.808);
+  --grey-shade: #dadada;
+}
+
+
+
+.flex-row{
+  display: flex;
+}
+
+.page{
+  min-height: 100vh;
+  padding: 4rem 0 0 0;
+}
+
+*{
+  max-width: 100vw;
+}
+
+@media screen and (max-width: 725px){
+  .page{
+    padding: 0;
+  }
+}

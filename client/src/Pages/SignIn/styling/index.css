@@ -1,0 +1,40 @@
+.sign-in {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.sign-in .custom-button {
+  margin: 0;
+  width: 7rem;
+}
+.sign-in div {
+  height: 100vh;
+}
+.sign-in div img {
+  margin: 0;
+  width: 100vw;
+  object-fit: cover;
+  height: 150px;
+  z-index: -10;
+}
+.sign-in .login {
+  margin: 100vh 0;
+}
+.sign-in .login img {
+  height: 170px;
+}
+
+@media screen and (max-width: 725px) {
+  .sign-in {
+    height: 101vh;
+  }
+  .sign-in div {
+    height: 100vh;
+  }
+  .sign-in div .bottom-img {
+    position: relative;
+    top: 40.5vh;
+  }
+  .sign-in div button {
+    width: 75%;
+  }
+}

@@ -1,0 +1,6 @@
+.dentists-page {
+  padding-top: 16px;
+}
+.dentists-page .all-dentists div {
+  display: inline-block;
+}

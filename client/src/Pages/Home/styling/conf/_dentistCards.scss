@@ -1,0 +1,15 @@
+.home-div{
+    .how-it-works{
+        color: var(--blue-shade);
+        background-color: var(--blue-grey-shade);
+        .blue-wave{
+            opacity: 0.4;
+            height: 200px;
+            width: 100vw;
+            object-fit: cover;
+        }
+        button{
+            width: 7rem;
+        }
+    }
+}

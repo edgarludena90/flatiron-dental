@@ -1,0 +1,40 @@
+// css to the sign-in component (url = login-page)
+.sign-in{
+    height: 100vh;
+    overflow-y: hidden;
+    .custom-button{
+        margin:0 ;
+        width: 7rem;
+    }
+    div{
+        height:100vh;
+        img{
+            margin: 0;
+            width: 100vw;
+            object-fit: cover;
+            height: 150px;
+            z-index: -10;
+        }
+    }
+    .login{
+        margin: 100vh 0;
+        img{
+            height: 170px;
+        }
+    }
+}
+@media screen and (max-width: 725px){
+    .sign-in{
+        height: 101vh;
+        div{
+            height: 100vh;
+            .bottom-img{
+                position: relative;
+                top: 40.5vh;
+            }
+            button{
+                width: 75%;
+            }
+        }
+    }
+}

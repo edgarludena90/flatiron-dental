@@ -1,0 +1,10 @@
+@import "./conf/title";
+@import "./conf/dentistCards";
+
+// css affecting all pages with a blue-wave at the bottom here
+
+.page{
+    .blue-bottom-wave{
+        filter: hue-rotate(35deg)
+    }
+}

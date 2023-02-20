@@ -1,0 +1,15 @@
+.appointments h3 {
+  color: var(--blue-shade);
+}
+.appointments .appointment-cards {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appointments .appointment-cards button {
+  width: 45%;
+}
+.appointments img {
+  width: 100vw;
+  object-fit: cover;
+}
